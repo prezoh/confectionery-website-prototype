@@ -4,9 +4,7 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
+
 
 
 html {
@@ -20,6 +18,9 @@ html {
 
 nav {
   margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
 }
 
 nav ul {
@@ -28,12 +29,11 @@ nav ul {
   margin:0;
   margin-left: -10px;
   margin-right: -10px;
-  min-width: 20%;
   background-color:#988862;
 }
 
 nav li {
-  text-align: left;
+
 }
 
 nav a {
@@ -50,7 +50,6 @@ nav a:hover {
 
 nav ul li {
   min-height: 50px;
-  margin-left: 100px;
   color: white;
   text-align: center;
 }
@@ -64,20 +63,36 @@ header img {
   max-width: 100%;
 }
 
-@media only screen and (min-width: 25em) {
+.about img {
+
+}
+
+@media only screen and (max-width: 35em) {
+
+  header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .main img {
     margin: 0;
+    padding: 0;
   }
 
   nav li {
-    display: inline-block;
-    text-align: center;
-    padding-left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  nav ul li {
-    margin: -100;
-    padding: -100;
+  nav ul {
   }
+
+
+  .about img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
 }
