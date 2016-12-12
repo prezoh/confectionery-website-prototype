@@ -67,7 +67,11 @@ header img {
 
 }
 
-@media only screen and (max-width: 35em) {
+h1 {
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 25em) {
 
   header img {
     display: block;
@@ -94,5 +98,46 @@ header img {
     min-width: 100%;
     max-width: 100%;
   }
+
+  h1 {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 26em) and (max-width: 65em) {
+
+  header img {
+    float: left;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    padding-bottom: 20px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+    float: left;
+    display: inline;
+  }
+
+  nav ul {
+    float: left;
+    width: 100%;
+  }
+
+  .main img {
+    padding-top: 10px;
+  }
+
+
 
 }
