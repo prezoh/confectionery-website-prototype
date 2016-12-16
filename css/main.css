@@ -71,7 +71,7 @@ h1 {
   padding-top: 30px;
 }
 
-@media only screen and (max-width: 25em) {
+@media only screen and (max-width: 24em) {
 
   header img {
     display: block;
@@ -109,7 +109,7 @@ h1 {
 
 }
 
-@media only screen and (min-width: 26em) and (max-width: 65em) {
+@media only screen and (min-width: 25em) {
 
   header img {
     float: left;
@@ -138,6 +138,33 @@ h1 {
     padding-top: 10px;
   }
 
+  .about img {
+    min-width: 50%;
+    max-width: 50%;
+    float: left;
+  }
 
+  .about p {
+    float: right;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    padding-left: 30px;
+  }
+
+  .main img {
+    position: relative;
+  }
+
+  .main p {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    width: 100%;
+  }
 
 }
