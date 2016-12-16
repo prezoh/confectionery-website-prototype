@@ -154,7 +154,7 @@ footer {
     float: right;
     min-width: 40%;
     max-width: 50%;
-    font-size: 1.3em;
+    font-size: 100%/1.3em;
   }
 
 }
@@ -174,7 +174,7 @@ footer {
 
   .about p {
     float: right;
-    font-size: 1.4em;
+    font-size: 110%/1.4em;
 
   }
 
@@ -193,7 +193,7 @@ footer {
 
   .about p {
     float: right;
-    font-size: 1.5em;
+    font-size: 120%/1.5em;
     padding-top: 50px;
   }
 
