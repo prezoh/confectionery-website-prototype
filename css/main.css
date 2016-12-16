@@ -71,6 +71,12 @@ h1 {
   padding-top: 30px;
 }
 
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  float: inherit;
+}
+
 @media only screen and (max-width: 24em) {
 
   header img {
@@ -146,6 +152,9 @@ h1 {
 
   .about p {
     float: right;
+    min-width: 40%;
+    max-width: 50%;
+    font-size: 1.3em;
   }
 
 }
@@ -156,15 +165,36 @@ h1 {
     padding-left: 30px;
   }
 
-  .main img {
+  .main p {
     position: relative;
+    bottom: 50px;
+    left: 50%;
+    max-width: 50em;
   }
 
-  .main p {
-    position: absolute;
-    top: 550px;
-    left: 50px;
-    width: 100%;
+  .about p {
+    float: right;
+    font-size: 1.4em;
+
+  }
+
+  .about img {
+    float: left;
+    max-width: 33%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    font-
+  }
+
+  .about p {
+    float: right;
+    font-size: 1.5em;
+    padding-top: 50px;
   }
 
 }
